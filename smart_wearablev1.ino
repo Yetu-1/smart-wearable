@@ -49,7 +49,7 @@ void setup(){
    if (pulseSensor.begin()) {
     Serial.println("We created a pulseSensor Object !");  //This prints one time at Arduino power-up,  or on Arduino reset.  
   }
-  
+  // print sender
    Serial.println("LoRa Sender");
 
   if (!LoRa.begin(433E6)) {
